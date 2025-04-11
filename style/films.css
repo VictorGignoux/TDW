@@ -1,50 +1,39 @@
 body{
-	background-color: #FAF8FF;
+	background-color: #FFF7F8;
 }
 
 #menu-liste{
-	background-color: ;
-	border: 2px solid var(--border);
+	background-color: #FFDCE1;
+	border: 2px solid #E592A3;
 }
 
 .menu-liste-item a{
-	color: var(--button);
+	color: #DC3B5D;
 }
 
 .menu-liste-item a:hover{
-	background-color: var(--button);
-	color: var(--back);
-}
-
-button{
-	color: var(--back);
-	background-color: var(--button);
-}
-
-button:hover{
-	cursor: pointer;
-	background-color: var(--hover);
+	background-color: #DC3B5D;
+	color: #FFFCFD;
 }
 
 #page-actuelle{
-	color: var(--back);
-	background-color: var(--hover);
+	color: #DC3B5D;
+	background-color: #F8BFC8;
 }
 
 #menu{
-	padding: 3vh 0;
+	padding: 2.6vh 0;
 }
 
 .carousel{
-	width: 75vw;
-	height: 80vh;
-	margin-top: 15vh;
-	background-color: var(--container);
+	width: 65vw;
+	height: 75vh;
+	margin-top: 18vh;
 	border-radius: 30px;
 }
 
 img{
 	object-fit: cover;
-	max-height: 80vh;
+	max-height: 75vh;
 	border-radius: 30px;
 }

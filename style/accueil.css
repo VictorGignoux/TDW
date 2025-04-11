@@ -1,48 +1,35 @@
 body{
-	background-color: #F4FBF7;
+	background-color: #FAF9FB;
 }
+
 #menu-liste{
-	background-color: #C3E9D7;
-	border: 2px solid #ACDEC8;
+	background-color: #F2EFF3;
+	border: 2px solid #BCBAC7;
 }
 
 .menu-liste-item a{
-	color: #26997B;
+	color: #84828E;
 }
 
 .menu-liste-item a:hover{
-	background-color: #26997B;
-	color: #F4FBF7;
-}
-
-button{
-	color: #F4FBF7;
-	background-color: #26997B;
-}
-
-button:hover{
-	cursor: pointer;
-	background-color: #56BA9F;
+	background-color: #84828E;
+	color: #FAF9FB;
 }
 
 #page-actuelle{
-	color: #F4FBF7;
-	background-color: #56BA9F;
+	color: #84828E;
+	background-color: #E3DFE6;
 }
 
 #contenu-apprentissage{
 	width: 40vw;
-	padding: 3vh 2vw;
-	background-color: #C3E9D7;
-	border-radius: 30px;
-	border: 2px solid #ACDEC8;
 	font-size: 22px;
 }
 
 h1{
-	color: #29A383;
+	color: #65636D;
 }
 
 p{
-	color: #1D3B31;
+	color: #211F26;
 }

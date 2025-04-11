@@ -1,34 +1,39 @@
 body{
-	background-color: #FAF8FF;
+	background-color: #FBFEFD;
 }
 
 #menu-liste{
-	background-color: ;
-	border: 2px solid var(--border);
+	background-color: #E6F7ED;
+	border: 2px solid #ACDEC8;
 }
 
 .menu-liste-item a{
-	color: var(--button);
+	color: #26997B;
 }
 
 .menu-liste-item a:hover{
-	background-color: var(--button);
-	color: var(--back);
+	background-color: #26997B;
+	color: #F4FBF7;
 }
 
 button{
-	color: var(--back);
-	background-color: var(--button);
+	padding: 8px 12px;
+	font-size: 16px;
+	border-radius: 15px;
+	border: 0;
+	transition: 0.2s;
+	color: #F4FBF7;
+	background-color: #26997B;
 }
 
 button:hover{
 	cursor: pointer;
-	background-color: var(--hover);
+	background-color: #56BA9F;
 }
 
 #page-actuelle{
-	color: var(--back);
-	background-color: var(--hover);
+	color: #26997B;
+	background-color: #C3E9D7;
 }
 
 .livre{
@@ -46,4 +51,16 @@ button:hover{
 
 .livre-description{
 	width: 30vw;
+}
+
+p{
+	color: #1D3B31;
+}
+
+h1{
+	color: #1D3B31;
+}
+
+h2{
+	color: #26997B;
 }

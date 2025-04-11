@@ -1,34 +1,24 @@
 body{
-	background-color: #FAF8FF;
+	background-color: #FDF7FD;
 }
 
 #menu-liste{
-	background-color: ;
-	border: 2px solid var(--border);
+	background-color: #FBEBFB;
+	border: 2px solid #DEADE3;
 }
 
 .menu-liste-item a{
-	color: var(--button);
+	color: #53195D;
 }
 
 .menu-liste-item a:hover{
-	background-color: var(--button);
-	color: var(--back);
-}
-
-button{
-	color: var(--back);
-	background-color: var(--button);
-}
-
-button:hover{
-	cursor: pointer;
-	background-color: var(--hover);
+	background-color: #A144AF;
+	color: #FDF7FD;
 }
 
 #page-actuelle{
-	color: var(--back);
-	background-color: var(--hover);
+	color: #53195D;
+	background-color: #F2D1F3;
 }
 
 #contenu{
@@ -43,24 +33,39 @@ button:hover{
 }
 
 .experience-item{
-	width: 18vw;
+	width: 30vw;
 	height: 8vh;
 	border-radius: 30px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-bottom: 20px;
 	overflow: hidden;
 	transition: 0.3S;
 }
 
 .experience-item:hover{
-	height: 30vh;
-	background-color: var(--container);
+	height: 22vh;
+	background-color: #FBEBFB;
 	cursor: pointer;
 }
 
 .experience-item p{
-	width: 15vw;
+	width: 25vw;
 	font-size: 20px;
+}
+
+h1{
+	font-size: 45px;
+	color: #53195D;
+}
+
+h2{
+	font-size: 30px;
+	color: #A144AF;
+	margin: 2vh 0;
+}
+
+p{
+	color: #53195D;
+	margin: 5px;
 }

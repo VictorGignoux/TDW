@@ -16,17 +16,8 @@ body{
 	color: #FAF8FF;
 }
 
-button{
-	color: #FAF8FF;
-	background-color: #6E56CF;
-}
-
-button:hover{
-	cursor: pointer;
-	background-color: #E1D9FF;
-}
-
 #page-actuelle{
+	color: #6E56CF;
 	background-color: #E1D9FF;
 }
 
