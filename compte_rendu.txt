@@ -1,0 +1,8 @@
+COMPTE RENDU
+
+ARBORESCANCE
+
+Le dossier projet/ contient les pages html ainsi que des sous-dossiers contenant les fichiers secondaires tels que les images, le style, etc...
+Cela permet notamment d'accéder facilement à ces fichiers depuis les pages html.
+
+Le fichier global.css contient le style qui sera appliqué à chaque page afin d'éviter les répétitions. Autrement, chaque page html possède sa page de style associée.

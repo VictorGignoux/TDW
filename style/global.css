@@ -1,0 +1,54 @@
+html{
+	--back: #F4FBF7;
+	--container: #C3E9D7;
+	--button: #26997B;
+	--border: #ACDEC8;
+	--title: #29A383;
+	--hover: #56BA9F;
+	--text: #1D3B31;
+}
+
+*{
+	font-family: sans-serif;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#menu{
+	position: fixed;
+}
+
+#menu-liste{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 60vw;
+	padding: 3vh 0;
+	border-radius: 60px;
+	list-style: none;
+	
+}
+
+.menu-liste-item a{
+	text-decoration: none;
+	font-size: 20px;
+	padding: 1vh 1vw;
+	border-radius: 30px;
+	transition: 0.2s;
+}
+
+#contenu{
+	margin: 15vh 0;
+}
+
+button{
+	padding: 8px 12px;
+	font-size: 16px;
+	border-radius: 15px;
+	border: 0;
+	transition: 0.2s;
+}

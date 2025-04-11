@@ -1,0 +1,50 @@
+body{
+	background-color: #FAF8FF;
+}
+
+#menu-liste{
+	background-color: ;
+	border: 2px solid var(--border);
+}
+
+.menu-liste-item a{
+	color: var(--button);
+}
+
+.menu-liste-item a:hover{
+	background-color: var(--button);
+	color: var(--back);
+}
+
+button{
+	color: var(--back);
+	background-color: var(--button);
+}
+
+button:hover{
+	cursor: pointer;
+	background-color: var(--hover);
+}
+
+#page-actuelle{
+	color: var(--back);
+	background-color: var(--hover);
+}
+
+#menu{
+	padding: 3vh 0;
+}
+
+.carousel{
+	width: 75vw;
+	height: 80vh;
+	margin-top: 15vh;
+	background-color: var(--container);
+	border-radius: 30px;
+}
+
+img{
+	object-fit: cover;
+	max-height: 80vh;
+	border-radius: 30px;
+}

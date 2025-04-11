@@ -1,0 +1,48 @@
+body{
+	background-color: #F4FBF7;
+}
+#menu-liste{
+	background-color: #C3E9D7;
+	border: 2px solid #ACDEC8;
+}
+
+.menu-liste-item a{
+	color: #26997B;
+}
+
+.menu-liste-item a:hover{
+	background-color: #26997B;
+	color: #F4FBF7;
+}
+
+button{
+	color: #F4FBF7;
+	background-color: #26997B;
+}
+
+button:hover{
+	cursor: pointer;
+	background-color: #56BA9F;
+}
+
+#page-actuelle{
+	color: #F4FBF7;
+	background-color: #56BA9F;
+}
+
+#contenu-apprentissage{
+	width: 40vw;
+	padding: 3vh 2vw;
+	background-color: #C3E9D7;
+	border-radius: 30px;
+	border: 2px solid #ACDEC8;
+	font-size: 22px;
+}
+
+h1{
+	color: #29A383;
+}
+
+p{
+	color: #1D3B31;
+}

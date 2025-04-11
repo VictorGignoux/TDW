@@ -1,0 +1,49 @@
+body{
+	background-color: #FAF8FF;
+}
+
+#menu-liste{
+	background-color: ;
+	border: 2px solid var(--border);
+}
+
+.menu-liste-item a{
+	color: var(--button);
+}
+
+.menu-liste-item a:hover{
+	background-color: var(--button);
+	color: var(--back);
+}
+
+button{
+	color: var(--back);
+	background-color: var(--button);
+}
+
+button:hover{
+	cursor: pointer;
+	background-color: var(--hover);
+}
+
+#page-actuelle{
+	color: var(--back);
+	background-color: var(--hover);
+}
+
+.livre{
+	display: flex;
+	width: 50vw;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 60px;
+}
+
+.livre-image{
+	height: 40vh;
+	object-fit: contain;
+}
+
+.livre-description{
+	width: 30vw;
+}

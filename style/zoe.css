@@ -1,0 +1,66 @@
+body{
+	background-color: #FAF8FF;
+}
+
+#menu-liste{
+	background-color: ;
+	border: 2px solid var(--border);
+}
+
+.menu-liste-item a{
+	color: var(--button);
+}
+
+.menu-liste-item a:hover{
+	background-color: var(--button);
+	color: var(--back);
+}
+
+button{
+	color: var(--back);
+	background-color: var(--button);
+}
+
+button:hover{
+	cursor: pointer;
+	background-color: var(--hover);
+}
+
+#page-actuelle{
+	color: var(--back);
+	background-color: var(--hover);
+}
+
+#contenu{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#experience{
+	display: flex;
+	flex-direction: column;
+}
+
+.experience-item{
+	width: 18vw;
+	height: 8vh;
+	border-radius: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+	overflow: hidden;
+	transition: 0.3S;
+}
+
+.experience-item:hover{
+	height: 30vh;
+	background-color: var(--container);
+	cursor: pointer;
+}
+
+.experience-item p{
+	width: 15vw;
+	font-size: 20px;
+}
