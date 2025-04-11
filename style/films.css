@@ -37,3 +37,15 @@ img{
 	max-height: 75vh;
 	border-radius: 30px;
 }
+
+.titre-page{
+	color: #F8BFC8;
+}
+
+#titre-page-gauche{
+	left: 1vw;
+}
+
+#titre-page-droite{
+	right: 1vw;
+}

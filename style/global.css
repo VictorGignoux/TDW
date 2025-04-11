@@ -44,3 +44,17 @@ body{
 #contenu{
 	margin: 15vh 0;
 }
+
+.titre-page{
+	position: fixed;
+	top: 40vh;
+	font-size: 50px;
+}
+
+#titre-page-gauche{
+	transform: rotate(-90deg);
+}
+
+#titre-page-droite{
+	transform: rotate(90deg);
+}

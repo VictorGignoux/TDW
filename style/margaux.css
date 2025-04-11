@@ -57,3 +57,27 @@ p{
 	justify-content: space-between;
 	width: 40vw;
 }
+
+img{
+	position: absolute;
+	top: 16vh;
+	right: 25vw;
+	width: 15vw;
+	height: 35vh;
+	object-fit: cover;
+	border-radius: 30px;
+	box-shadow: 15px 15px #C2B5F5;
+	z-index: -1;
+}
+
+.titre-page{
+	color: #E1D9FF;
+}
+
+#titre-page-gauche{
+	left: -4vw;
+}
+
+#titre-page-droite{
+	right: -4vw;
+}

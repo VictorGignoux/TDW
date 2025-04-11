@@ -25,6 +25,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin: 10vh 0;
 }
 
 #experience{
@@ -68,4 +69,25 @@ h2{
 p{
 	color: #53195D;
 	margin: 5px;
+}
+
+img{
+	width: 20vw;
+	height: 25vh;
+	object-fit: cover;
+	border-radius: 30px;
+	box-shadow: 0 0 1em #53195D;
+	margin-bottom: 20px;
+}
+
+.titre-page{
+	color: #F2D1F3;
+}
+
+#titre-page-gauche{
+	left: -6vw;
+}
+
+#titre-page-droite{
+	right: -6vw;
 }

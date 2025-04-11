@@ -33,3 +33,15 @@ h1{
 p{
 	color: #211F26;
 }
+
+.titre-page{
+	color: #E3DFE6;
+}
+
+#titre-page-gauche{
+	left: 3vw;
+}
+
+#titre-page-droite{
+	right: 3vw;
+}

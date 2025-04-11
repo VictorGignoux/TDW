@@ -64,3 +64,15 @@ h1{
 h2{
 	color: #26997B;
 }
+
+.titre-page{
+	color: #C3E9D7;
+}
+
+#titre-page-gauche{
+	left: 3vw;
+}
+
+#titre-page-droite{
+	right: 3vw;
+}
